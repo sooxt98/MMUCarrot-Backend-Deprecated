@@ -1,12 +1,6 @@
 # MMUCarrot
 
-Gophish was built from the ground-up with a JSON API that makes it easy for developers and sysadmins to automate simulated phishing campaigns.
-
-These docs describe how to use the [Gophish](https://getgophish.com) API. We hope you enjoy these docs, and please don't hesitate to [file an issue](https://github.com/gophish/gophish/issues/new) if you see anything missing.
-
-{% hint style="info" %}
-**Is Python your language of choice?** If so, we have a [fully-supported Python API client](https://docs.getgophish.com/python-api-client/) that makes working with the Gophish API a piece of cake!
-{% endhint %}
+An automation app for MMU students
 
 ## API Error Response Type
 
@@ -35,7 +29,7 @@ GET /login/?username=1161303833&password=imthepassword
 
 ```javascript
 {
-  "token" : 3119da45104679ecf712ce8e6cff8063c46c4f76f2e6de36d8b07077e3643cb75ab3dcaf9103b0545a121a6efc70f1b787cc92a5680fdbaf5ba31a7314274dbd5d9fa73c0d764e321ec276dae17589e4ab72452f6eda8f230141cebce5d075609adada5697ea98b70b8748e18b5e5a00bd4a73c9cc922c44c1aab9170d34925a068a8cc6e6b183c5bcdae7d692986543a3ded1dee7ce5da701e17cd6b627a93fdd1b8efb417af1119d7cfdd28a99491e528c0e7c63012f2ef46a69aacf85e6a7098f6071c626c6a88931d095a7f1c842c9dce6e05f21b50c8bf36ac8a00a315fdd9fbfecec2499ba7ae529e5ed0e6709e4eab26bb5b44ec70aed4b1b2fe5da11612ef7044b93780bcdbb618fd4406a14bf0a1a5faeaf05ff5f7bf6f8a35bc9159da0152426afb28e1b363cc1c1a9b1db9094d803dbc0c08fd56919a26785350c12f912501f072e71b240b261f6e70013dd1276e498b7fbd425c2873443bc8a82,
+  "token" : "3119da45104679ecf712ce8e6cff8063c46c4f76f2e6de36d8b07077e3643cb75ab3dcaf9103b0545a121a6efc70f1b787cc92a5680fdbaf5ba31a7314274dbd5d9fa73c0d764e321ec276dae17589e4ab72452f6eda8f230141cebce5d075609adada5697ea98b70b8748e18b5e5a00bd4a73c9cc922c44c1aab9170d34925a068a8cc6e6b183c5bcdae7d692986543a3ded1dee7ce5da701e17cd6b627a93fdd1b8efb417af1119d7cfdd28a99491e528c0e7c63012f2ef46a69aacf85e6a7098f6071c626c6a88931d095a7f1c842c9dce6e05f21b50c8bf36ac8a00a315fdd9fbfecec2499ba7ae529e5ed0e6709e4eab26bb5b44ec70aed4b1b2fe5da11612ef7044b93780bcdbb618fd4406a14bf0a1a5faeaf05ff5f7bf6f8a35bc9159da0152426afb28e1b363cc1c1a9b1db9094d803dbc0c08fd56919a26785350c12f912501f072e71b240b261f6e70013dd1276e498b7fbd425c2873443bc8a82",
   "success" : true,
 }
 ```
