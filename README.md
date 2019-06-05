@@ -2,6 +2,11 @@
 
 An automation app for MMU students
 
+* Time table scheduler (CMS) + Auto enrollment
+* MMLS + Bulletin + MMU + SRC mobile notifications
+* MMLS assignemnt deadline notifications
+* Group assignment discussion area (maybe?)
+
 ## API Error Response Type
 
 | Error Message | Description |
