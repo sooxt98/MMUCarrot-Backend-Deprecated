@@ -48,7 +48,125 @@ GET /requirements/?token=3119da45104679ecf712ce8e6cff8063c46c4f76f2e6de36d8b0707
 ### Responses
 
 ```javascript
-{"result":{"list":[{"condition":{"note":"All required","requiered":3,"taken":0,"needed":3},"courses":[{"id":"MPU3343","course":"BUSINESS & ENTREP IN MALAYSIA***  view multiple offerings","unit":"3.00","aid":43},{"id":"TIS3151","course":"SOFTWARE RELIABILITY & QA","unit":"4.00","aid":44},{"id":"TPT3101","course":"PROJECT","unit":"8.00","aid":45}]},{"condition":{"note":"Courses:  1 required, 0 taken, 1 needed","requiered":1,"taken":0,"needed":1},"courses":[{"id":"TCP2451","course":"PROG. LANG. TRANS.","unit":"4.00","aid":46},{"id":"TIC2151","course":"THEORY OF COMPUTATION","unit":"4.00","aid":47}]},{"condition":{"note":"Courses:  1 required, 0 taken, 1 needed","requiered":1,"taken":0,"needed":1},"courses":[{"id":"TCP2651","course":"CONCEPTS OF PROG LANG.","unit":"4.00","aid":48},{"id":"TGD2251","course":"GAME PHYSICS","unit":"4.00","aid":49},{"id":"TIC3151","course":"ARTIFICIAL INTELLIGENCE","unit":"4.00","aid":50},{"id":"TIS2151","course":"WEB APPLICATION DEVELOPMENT","unit":"4.00","aid":51},{"id":"TIS3451","course":"INFO TECHNOLOGY AUDITING","unit":"4.00","aid":52},{"id":"TSE2251","course":"SYSTEMS ANALYSIS AND DESIGN","unit":"4.00","aid":53},{"id":"TSN3151","course":"PARALLEL PROCESSING","unit":"4.00","aid":54},{"id":"TSN3251","course":"COMPUTER SECURITY","unit":"4.00","aid":55}]}],"cms":{"id":"IIZGqB1zDJz8lr6OBWokIjUbE+su/ldhf8yuJMh5S4Q=","state":"3"}},"success":true}
+{
+  "result": {
+    "list": [
+      {
+        "condition": {
+          "note": "All required",
+          "requiered": 3,
+          "taken": 0,
+          "needed": 3
+        },
+        "courses": [
+          {
+            "id": "MPU3343",
+            "course": "BUSINESS & ENTREP IN MALAYSIA***  view multiple offerings",
+            "unit": "3.00",
+            "aid": 43
+          },
+          {
+            "id": "TIS3151",
+            "course": "SOFTWARE RELIABILITY & QA",
+            "unit": "4.00",
+            "aid": 44
+          },
+          {
+            "id": "TPT3101",
+            "course": "PROJECT",
+            "unit": "8.00",
+            "aid": 45
+          }
+        ]
+      },
+      {
+        "condition": {
+          "note": "Courses:  1 required, 0 taken, 1 needed",
+          "requiered": 1,
+          "taken": 0,
+          "needed": 1
+        },
+        "courses": [
+          {
+            "id": "TCP2451",
+            "course": "PROG. LANG. TRANS.",
+            "unit": "4.00",
+            "aid": 46
+          },
+          {
+            "id": "TIC2151",
+            "course": "THEORY OF COMPUTATION",
+            "unit": "4.00",
+            "aid": 47
+          }
+        ]
+      },
+      {
+        "condition": {
+          "note": "Courses:  1 required, 0 taken, 1 needed",
+          "requiered": 1,
+          "taken": 0,
+          "needed": 1
+        },
+        "courses": [
+          {
+            "id": "TCP2651",
+            "course": "CONCEPTS OF PROG LANG.",
+            "unit": "4.00",
+            "aid": 48
+          },
+          {
+            "id": "TGD2251",
+            "course": "GAME PHYSICS",
+            "unit": "4.00",
+            "aid": 49
+          },
+          {
+            "id": "TIC3151",
+            "course": "ARTIFICIAL INTELLIGENCE",
+            "unit": "4.00",
+            "aid": 50
+          },
+          {
+            "id": "TIS2151",
+            "course": "WEB APPLICATION DEVELOPMENT",
+            "unit": "4.00",
+            "aid": 51
+          },
+          {
+            "id": "TIS3451",
+            "course": "INFO TECHNOLOGY AUDITING",
+            "unit": "4.00",
+            "aid": 52
+          },
+          {
+            "id": "TSE2251",
+            "course": "SYSTEMS ANALYSIS AND DESIGN",
+            "unit": "4.00",
+            "aid": 53
+          },
+          {
+            "id": "TSN3151",
+            "course": "PARALLEL PROCESSING",
+            "unit": "4.00",
+            "aid": 54
+          },
+          {
+            "id": "TSN3251",
+            "course": "COMPUTER SECURITY",
+            "unit": "4.00",
+            "aid": 55
+          }
+        ]
+      }
+    ],
+    "cms": {
+      "id": "IIZGqB1zDJz8lr6OBWokIjUbE+su/ldhf8yuJMh5S4Q=",
+      "state": "3"
+    }
+  },
+  "success": true
+}
 ```
 
 
@@ -66,6 +184,82 @@ GET /course/?code=TIS3151&token=3119da45104679ecf712ce8e6cff8063c46c4f76f2e6de36
 ### Responses
 
 ```javascript
-{"result":[{"index":1,"grade":"Undergraduate","faculty":"FCI","type":"Tutorial","class_id":"3302","class_section":"TT01","day":"Monday","time_start":"10:00 AM","time_end":"12:00 PM","venue":"CQAR2002"},{"index":2,"grade":"Undergraduate","faculty":"FCI","type":"Tutorial","class_id":"3305","class_section":"TT04","day":"Tuesday","time_start":"02:00 PM","time_end":"04:00 PM","venue":"CQAR2002"},{"index":3,"grade":"Undergraduate","faculty":"FCI","type":"Tutorial","class_id":"3304","class_section":"TT03","day":"Wednesday","time_start":"10:00 AM","time_end":"12:00 PM","venue":"CQAR2002"},{"index":4,"grade":"Undergraduate","faculty":"FCI","type":"Lecture","class_id":"3301","class_section":"TC02","day":"Wednesday","time_start":"02:00 PM","time_end":"04:00 PM","venue":"CQCR3002"},{"index":5,"grade":"Undergraduate","faculty":"FCI","type":"Tutorial","class_id":"3303","class_section":"TT02","day":"Thursday","time_start":"10:00 AM","time_end":"12:00 PM","venue":"CQAR2002"},{"index":6,"grade":"Undergraduate","faculty":"FCI","type":"Lecture","class_id":"3300","class_section":"TC01","day":"Thursday","time_start":"04:00 PM","time_end":"06:00 PM","venue":"CQCR2002"}],"success":true}
+{
+  "result": [
+    {
+      "index": 1,
+      "grade": "Undergraduate",
+      "faculty": "FCI",
+      "type": "Tutorial",
+      "class_id": "3302",
+      "class_section": "TT01",
+      "day": "Monday",
+      "time_start": "10:00 AM",
+      "time_end": "12:00 PM",
+      "venue": "CQAR2002"
+    },
+    {
+      "index": 2,
+      "grade": "Undergraduate",
+      "faculty": "FCI",
+      "type": "Tutorial",
+      "class_id": "3305",
+      "class_section": "TT04",
+      "day": "Tuesday",
+      "time_start": "02:00 PM",
+      "time_end": "04:00 PM",
+      "venue": "CQAR2002"
+    },
+    {
+      "index": 3,
+      "grade": "Undergraduate",
+      "faculty": "FCI",
+      "type": "Tutorial",
+      "class_id": "3304",
+      "class_section": "TT03",
+      "day": "Wednesday",
+      "time_start": "10:00 AM",
+      "time_end": "12:00 PM",
+      "venue": "CQAR2002"
+    },
+    {
+      "index": 4,
+      "grade": "Undergraduate",
+      "faculty": "FCI",
+      "type": "Lecture",
+      "class_id": "3301",
+      "class_section": "TC02",
+      "day": "Wednesday",
+      "time_start": "02:00 PM",
+      "time_end": "04:00 PM",
+      "venue": "CQCR3002"
+    },
+    {
+      "index": 5,
+      "grade": "Undergraduate",
+      "faculty": "FCI",
+      "type": "Tutorial",
+      "class_id": "3303",
+      "class_section": "TT02",
+      "day": "Thursday",
+      "time_start": "10:00 AM",
+      "time_end": "12:00 PM",
+      "venue": "CQAR2002"
+    },
+    {
+      "index": 6,
+      "grade": "Undergraduate",
+      "faculty": "FCI",
+      "type": "Lecture",
+      "class_id": "3300",
+      "class_section": "TC01",
+      "day": "Thursday",
+      "time_start": "04:00 PM",
+      "time_end": "06:00 PM",
+      "venue": "CQCR2002"
+    }
+  ],
+  "success": true
+}
 ```
 
