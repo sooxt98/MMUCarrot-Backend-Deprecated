@@ -14,7 +14,7 @@ An automation app for MMU students
 | `Err` | Unknown error |
 
 
-## Authorization
+## CMS Authorization
 
 ```http
 GET /login/?username=1161303833&password=imthepassword
@@ -180,6 +180,7 @@ GET /course/?code=TIS3151&token=3119da45104679ecf712ce8e6cff8063c46c4f76f2e6de36
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | `token` | `string` | **Required**. auth token |
+| `code` | `string` | **Required**. MMU Course code |
 
 ### Responses
 
@@ -262,4 +263,45 @@ GET /course/?code=TIS3151&token=3119da45104679ecf712ce8e6cff8063c46c4f76f2e6de36
   "success": true
 }
 ```
+
+
+
+## CMS Add requirement course to planner
+
+```http
+GET /add_to_planner/?aid=44&token=3119da45104679ecf712ce8e6cff8063c46c4f76f2e6de36d8b07077e3643cb75ab3dcaf910...
+```
+
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| `token` | `string` | **Required**. auth token |
+| `aid` | `string` | **Required**. CMS ActionID which obtain from `GET` /requirements |
+
+### Responses
+
+```javascript
+{
+  "success" : true
+}
+```
+
+## CMS Get Attendance
+
+Get CMS Roster
+
+
+## CMS Get ExamSlip
+
+## CMS Get Timetable
+
+## CMS Get Advisor
+
+## CMS Get Finance Status
+
+## CMS Survey Submit
+
+Auto complete AAS and others survey with a click.
+
+## Bulletin Get News
+
 
