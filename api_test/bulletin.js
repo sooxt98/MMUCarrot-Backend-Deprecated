@@ -8,7 +8,7 @@ const fs = require('fs');
 request.post('https://online.mmu.edu.my/bulletin.php', {
     form:{
         form_loginUsername:'1161303833',
-        form_loginPassword:'***REMOVED***',
+        form_loginPassword:'password',
     }
 }, function(err,httpResponse,body){
     //console.log(body)
