@@ -1,0 +1,7 @@
+{
+    "crypto" : {
+        "algorithm" : "aes-256-cbc",
+        "key": "e82ea1d37d9bfeb2ace2b3e1775b54634c57ff6aa108ca00f608fa8c4ebd1618",
+        "iv": "975348205fb38c81da2c7c74aa9e446b"
+    }
+}
